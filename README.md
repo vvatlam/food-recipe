@@ -22,9 +22,9 @@ When the user selects a recipe the application should display on the same screen
 * Maven
 * Junit5
 ## Setup
-### Use the webbapps
+### Use the webbapp
 #### * Create your Favrorite Recipe
-##### Requested Url : http://localhost:9002/recipes/add   <br/>
+##### Requested Url : http://localhost:9002/recipes   <br/>
 ##### Request json :
 ```
 {
@@ -53,7 +53,7 @@ When the user selects a recipe the application should display on the same screen
 ##### Response Code : 200 (Successfully retrieved list of favourite recipes)
 
 #### * Update your Favorite Recipes
-##### Requeste URL: http://localhost:9002/recipes/update/1 <br/>
+##### Requeste URL: http://localhost:9002/recipes/1 <br/>
 ##### Request Json:
 ```
 {
@@ -79,6 +79,6 @@ When the user selects a recipe the application should display on the same screen
 ```
 
 #### * Delete you Recipes
-##### @ Requested URL:  http://localhost:9002/recipes/delete/1   <br/>
+##### @ Requested URL:  http://localhost:9002/recipes/1   <br/>
 ##### Response : 200 ( successfull Deleted your recipe)
 
