@@ -82,3 +82,8 @@ When the user selects a recipe the application should display on the same screen
 ##### @ Requested URL:  http://localhost:9002/recipes/1   <br/>
 ##### Response : 200 ( successfull Deleted your recipe)
 
+
+### SWagger URL
+```
+http://localhost:9009/swagger-ui.html#/ 
+```
